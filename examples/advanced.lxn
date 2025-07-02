@@ -1,0 +1,8 @@
+Say "Starting loop..."
+Loop 3 Say "Repeating!"
+Set XP = 0
+Add XP +100
+Wait 2
+Say "XP is now:"
+Say _G["XP"]
+Teleport YourUsername 0 10 0
