@@ -21,9 +21,7 @@ Teleport YourUsername 0 10 0
 ```
 Paste this into your Roblox executor:
 
-loadstring(game:HttpGet("https://your-url.com/roblox/LuaxnaxLoader.lua"))()(
-    "https://your-url.com/examples/welcome.lxn"
-)
+loadstring(game:HttpGet("https://Your-Local-Dude/roblox/LuaxnaxLoader.lua"))()
 ```
 📜 Supported Commands
 
