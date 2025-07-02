@@ -12,10 +12,9 @@ Luaxnax is a beginner-friendly scripting language for Roblox that uses `.lxn` fi
 ## 🚀 How to Use
 
 Paste this into your Roblox executor:
-
-loadstring(
-  game:HttpGet("https://raw.githubusercontent.com/YourLocal-Dude/Luaxnax-/main/roblox/LuaxnaxLoader.lua")
-)()("https://raw.githubusercontent.com/YourLocal-Dude/Luaxnax-/main/examples/welcome.lxn")
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocal-Dude/Luaxnax-/main/roblox/LuaxnaxLoader.lua"))()("https://raw.githubusercontent.com/YourLocal-Dude/Luaxnax-/main/examples/welcome.lxn")
+```
 
 Your `.lxn` script will be downloaded, converted, and run immediately.
 
