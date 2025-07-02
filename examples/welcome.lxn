@@ -1,0 +1,4 @@
+Say "Welcome to Luaxnax!"
+Set Coins = 100
+Add Coins +50
+Say "Coins updated!"
