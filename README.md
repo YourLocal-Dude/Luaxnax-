@@ -1,44 +1,51 @@
 # 🌐 Luaxnax Roblox Scripting Language
 
-**Luaxnax** is a beginner-friendly scripting language for Roblox that uses `.lxn` files with simple commands like `Say`, `Set`, `Add`, and `Teleport`.
+Luaxnax is a beginner-friendly scripting language for Roblox that uses `.lxn` files with simple commands like Say, Set, Add, and Teleport.
 
 ## ⚙️ Features
 
-- ✅ Lua-like syntax (easier for new coders)
-- 📦 Loadstring-compatible
-- 💡 Converts `.lxn` to Lua at runtime
-- 🔐 Will only execute if file ends in `.lxn`
+- Lua-like syntax simplified for newcomers  
+- Loadstring-compatible: converts `.lxn` to real Lua on the fly  
+- Only `.lxn` files are executed — adds safety  
+- Supports: Say, Set, Add, Wait, Loop, and Teleport
 
-## 🔥 Example `.lxn`
+## 🚀 How to Use
 
-```lxn
+Paste this into your Roblox executor:
+
+loadstring(
+  game:HttpGet("https://raw.githubusercontent.com/YourLocal-Dude/Luaxnax-/main/roblox/LuaxnaxLoader.lua")
+)()("https://raw.githubusercontent.com/YourLocal-Dude/Luaxnax-/main/examples/welcome.lxn")
+
+Your `.lxn` script will be downloaded, converted, and run immediately.
+
+## 🧰 Supported Commands
+
+Command | Description
+------- | -----------
+Say "message" | Prints a message to the console
+Set <Var> = <Value> | Sets a global variable
+Add <Var> +<Value> | Increases a variable's value
+Wait <seconds> | Waits/delays execution
+Loop <count> <command> | Repeats a command multiple times
+Teleport <playername> <x> <y> <z> | Teleports a player to coordinates
+
+Full syntax: see docs/COMMANDS.md
+
+## 💡 Create Your Own `.lxn`
+
+Create a file ending in `.lxn` with beginner-style commands like:
+
 Say "Welcome!"
 Set Coins = 100
 Add Coins +50
-Teleport YourUsername 0 10 0
-```
-🧪 How to Use
-```
-Paste this into your Roblox executor:
 
-loadstring(game:HttpGet("https://Your-Local-Dude/roblox/LuaxnaxLoader.lua"))()
-```
-📜 Supported Commands
+Then host it publicly and load it using the loader.
 
-See docs/COMMANDS.md
+## 📄 License
 
-📄 License
+This project is open-source under the MIT License. See LICENSE for details.
 
-MIT
+## 🌍 Created by
 
----
-
-## ✅ 6. `LICENSE`
-
-```text
-MIT License
-
-Copyright (c) 2025 YourLocal-Dude
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software...
-
+YourLocal-Dude — making scripting simple for everyone.
